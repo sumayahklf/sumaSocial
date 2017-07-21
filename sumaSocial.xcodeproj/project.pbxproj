@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A07875251F21A1C200929089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07875241F21A1C200929089 /* AppDelegate.swift */; };
-		A07875271F21A1C200929089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07875261F21A1C200929089 /* ViewController.swift */; };
+		A07875271F21A1C200929089 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07875261F21A1C200929089 /* SignInVC.swift */; };
 		A078752A1F21A1C200929089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07875281F21A1C200929089 /* Main.storyboard */; };
 		A078752C1F21A1C200929089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A078752B1F21A1C200929089 /* Assets.xcassets */; };
 		A078752F1F21A1C200929089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A078752D1F21A1C200929089 /* LaunchScreen.storyboard */; };
 		A078753A1F21A1C200929089 /* sumaSocialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07875391F21A1C200929089 /* sumaSocialTests.swift */; };
 		A07875451F21A1C200929089 /* sumaSocialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07875441F21A1C200929089 /* sumaSocialUITests.swift */; };
+		A07875531F21A51F00929089 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A07875521F21A51F00929089 /* GoogleService-Info.plist */; };
+		A5C9DAAF73940CB3EC999636 /* Pods_sumaSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6FE4F7A8635A6D0E25FCFC /* Pods_sumaSocial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E974BB3A1F5F2AAE860F2E5 /* Pods_sumaSocialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumaSocialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D7E57DF4B4B675E1A4A85D /* Pods-sumaSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumaSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sumaSocial/Pods-sumaSocial.debug.xcconfig"; sourceTree = "<group>"; };
+		4E6FE4F7A8635A6D0E25FCFC /* Pods_sumaSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumaSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07875211F21A1C200929089 /* sumaSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sumaSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07875241F21A1C200929089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A07875261F21A1C200929089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A07875261F21A1C200929089 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		A07875291F21A1C200929089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A078752B1F21A1C200929089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A078752E1F21A1C200929089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		A07875401F21A1C200929089 /* sumaSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sumaSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07875441F21A1C200929089 /* sumaSocialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sumaSocialUITests.swift; sourceTree = "<group>"; };
 		A07875461F21A1C200929089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07875521F21A51F00929089 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D12A971C289EA182ABD7D68C /* Pods_sumaSocialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sumaSocialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE52FE11501C2128B52DA4B6 /* Pods-sumaSocial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sumaSocial.release.xcconfig"; path = "Pods/Target Support Files/Pods-sumaSocial/Pods-sumaSocial.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C9DAAF73940CB3EC999636 /* Pods_sumaSocial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A10323743EA3B75AAC36930 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E6FE4F7A8635A6D0E25FCFC /* Pods_sumaSocial.framework */,
+				D12A971C289EA182ABD7D68C /* Pods_sumaSocialTests.framework */,
+				2E974BB3A1F5F2AAE860F2E5 /* Pods_sumaSocialUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A07875181F21A1C200929089 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +100,8 @@
 				A07875381F21A1C200929089 /* sumaSocialTests */,
 				A07875431F21A1C200929089 /* sumaSocialUITests */,
 				A07875221F21A1C200929089 /* Products */,
+				E8008F7F31956B60D5BE8C6F /* Pods */,
+				3A10323743EA3B75AAC36930 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +118,15 @@
 		A07875231F21A1C200929089 /* sumaSocial */ = {
 			isa = PBXGroup;
 			children = (
+				A07875561F21A8AE00929089 /* View */,
+				A07875551F21A8A500929089 /* Controller */,
+				A07875541F21A89900929089 /* Model */,
 				A07875241F21A1C200929089 /* AppDelegate.swift */,
-				A07875261F21A1C200929089 /* ViewController.swift */,
 				A07875281F21A1C200929089 /* Main.storyboard */,
 				A078752B1F21A1C200929089 /* Assets.xcassets */,
 				A078752D1F21A1C200929089 /* LaunchScreen.storyboard */,
 				A07875301F21A1C200929089 /* Info.plist */,
+				A07875521F21A51F00929089 /* GoogleService-Info.plist */,
 			);
 			path = sumaSocial;
 			sourceTree = "<group>";
@@ -125,6 +149,37 @@
 			path = sumaSocialUITests;
 			sourceTree = "<group>";
 		};
+		A07875541F21A89900929089 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A07875551F21A8A500929089 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A07875561F21A8AE00929089 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A07875261F21A1C200929089 /* SignInVC.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E8008F7F31956B60D5BE8C6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42D7E57DF4B4B675E1A4A85D /* Pods-sumaSocial.debug.xcconfig */,
+				EE52FE11501C2128B52DA4B6 /* Pods-sumaSocial.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A07875491F21A1C200929089 /* Build configuration list for PBXNativeTarget "sumaSocial" */;
 			buildPhases = (
+				368AF51405C2C557ED02B4C1 /* [CP] Check Pods Manifest.lock */,
 				A078751D1F21A1C200929089 /* Sources */,
 				A078751E1F21A1C200929089 /* Frameworks */,
 				A078751F1F21A1C200929089 /* Resources */,
+				B88DE044C4E27D5B63646957 /* [CP] Embed Pods Frameworks */,
+				5DE3D5E8F5D986C929B10782 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A078752F1F21A1C200929089 /* LaunchScreen.storyboard in Resources */,
+				A07875531F21A51F00929089 /* GoogleService-Info.plist in Resources */,
 				A078752C1F21A1C200929089 /* Assets.xcassets in Resources */,
 				A078752A1F21A1C200929089 /* Main.storyboard in Resources */,
 			);
@@ -254,12 +313,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		368AF51405C2C557ED02B4C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sumaSocial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DE3D5E8F5D986C929B10782 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sumaSocial/Pods-sumaSocial-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B88DE044C4E27D5B63646957 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sumaSocial/Pods-sumaSocial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sumaSocial/Pods-sumaSocial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A078751D1F21A1C200929089 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07875271F21A1C200929089 /* ViewController.swift in Sources */,
+				A07875271F21A1C200929089 /* SignInVC.swift in Sources */,
 				A07875251F21A1C200929089 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +529,7 @@
 		};
 		A078754A1F21A1C200929089 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D7E57DF4B4B675E1A4A85D /* Pods-sumaSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sumaSocial/Info.plist;
@@ -424,6 +542,7 @@
 		};
 		A078754B1F21A1C200929089 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE52FE11501C2128B52DA4B6 /* Pods-sumaSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sumaSocial/Info.plist;
@@ -507,6 +626,7 @@
 				A078754B1F21A1C200929089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A078754C1F21A1C200929089 /* Build configuration list for PBXNativeTarget "sumaSocialTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +635,7 @@
 				A078754E1F21A1C200929089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A078754F1F21A1C200929089 /* Build configuration list for PBXNativeTarget "sumaSocialUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +644,7 @@
 				A07875511F21A1C200929089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

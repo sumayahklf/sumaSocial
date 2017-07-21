@@ -1,0 +1,6 @@
+framework module Pods_sumaSocial {
+  umbrella header "Pods-sumaSocial-umbrella.h"
+
+  export *
+  module * { export * }
+}

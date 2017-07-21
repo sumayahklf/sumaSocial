@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>174055307591-fnel5ro1k8ascsdhpbr6gh97cm33le3o.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.174055307591-fnel5ro1k8ascsdhpbr6gh97cm33le3o</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDtVO8jH2AQiXcZYE06Hz6_iM9cs2R3c0U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>174055307591</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sumayah.sumaSocial</string>
+	<key>PROJECT_ID</key>
+	<string>sumasocial-53548</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sumasocial-53548.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:174055307591:ios:58b99fb03c465bf3</string>
+	<key>DATABASE_URL</key>
+	<string>https://sumasocial-53548.firebaseio.com</string>
+</dict>
+</plist>
